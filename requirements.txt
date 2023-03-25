@@ -1,0 +1,97 @@
+absl-py==1.0.0
+addict==2.4.0
+atomicwrites==1.4.0
+attrs @ file:///opt/conda/conda-bld/attrs_1642510447205/work
+beautifulsoup4==4.11.1
+brotlipy==0.7.0
+browsermob-proxy==0.8.0
+cachetools==5.1.0
+certifi==2021.10.8
+
+charset-normalizer==2.0.12
+click==7.1.2
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+coremltools==5.2.0
+cryptography @ file:///C:/ci/cryptography_1652101770956/work
+cycler==0.11.0
+Cython==0.29.28
+filelock==3.8.2
+fonttools==4.33.3
+google-auth==2.6.6
+google-auth-oauthlib==0.4.6
+grpcio==1.46.3
+huggingface-hub==0.11.1
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+imageio==2.19.2
+importlib-metadata @ file:///C:/ci/importlib-metadata_1648562631189/work
+iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
+iso8601==1.1.0
+kiwisolver==1.4.2
+lxml @ file:///C:/ci/lxml_1646642866976/work
+m3u8==3.3.0
+Markdown==3.3.7
+matplotlib==3.5.2
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186163140/work
+mkl-service==2.4.0
+mmcv-full==1.5.0
+model-index==0.1.11
+mpmath==1.2.1
+natsort==8.2.0
+networkx==2.6.3
+numpy @ file:///C:/ci/numpy_and_numpy_base_1650959324056/work
+oauthlib==3.2.0
+onnx==1.11.0
+opencv-contrib-python==4.5.5.64
+opencv-python==4.5.5.64
+openmim==0.1.5
+ordered-set==4.1.0
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.3.5
+Pillow==9.0.1
+pluggy @ file:///C:/ci/pluggy_1648042781630/work
+protobuf==3.20.1
+py @ file:///opt/conda/conda-bld/py_1644396412707/work
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools-windows==2.0.0.2
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///opt/conda/conda-bld/pyopenssl_1643788558760/work
+pyparsing==3.0.9
+PySocks @ file:///C:/ci/pysocks_1594394709107/work
+pytest==7.1.1
+python-dateutil==2.8.2
+pytz==2022.1
+PyWavelets==1.3.0
+PyYAML==6.0
+regex==2022.4.24
+requests==2.27.1
+requests-oauthlib==1.3.1
+rsa==4.8
+scikit-image==0.19.2
+scipy==1.7.3
+seaborn==0.11.2
+selenium @ file:///C:/ci/selenium_1594408106746/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+soupsieve==2.3.2.post1
+sympy==1.10.1
+tabulate==0.8.9
+tensorboard==2.9.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+terminaltables==3.1.10
+thop==0.0.31.post2005241907
+tifffile==2021.11.2
+timm==0.6.12
+tomli @ file:///tmp/build/80754af9/tomli_1637314251069/work
+torch==1.10.0
+torch-summary==1.4.4
+torchvision==0.11.0
+tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+urllib3 @ file:///C:/Windows/TEMP/abs_65ynz4fdmi/croots/recipe/urllib3_1659110473919/work
+Werkzeug==2.1.2
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306165655/work
+wincertstore==0.2
+yapf==0.32.0
+zipp @ file:///C:/ci/zipp_1652274072582/work

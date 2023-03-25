@@ -1,0 +1,15 @@
+Assuming we are presented with an intermediate feature map, F, of dimensions C x H x W, we may represent it as an element of the space R^(C x H x W). As part of our processing pipeline, we subject F to a bifurcated path of two parallel branches, the first being the backbone network, and the second being the MCFF module, which comprises of convolutional, batch normalization, and σ activation layers.
+
+The feature map from the MCFF module, Mm, is subjected to convolutional, batch normalization, and σ activation layers in sequence, giving us a resulting feature map, F'. In parallel, the backbone network generates a feature map, Mb, via its own sequence of operations. We may formally express this as follows:
+F' = Mb(F)
+F'' = Mm(F)
+Fo = F' + F''
+Here, Mb(.) and Mm(.) represent the operations that generate the feature maps from the backbone network and the MCFF module, respectively.
+The detail MCFF can be formulated as follows:
+Finally, we arrive at the DFEM module, wherein we perform an element-wise summation of the output feature maps, F_mcff_out and F_backbone_out, to generate a more comprehensive and robust representation of our input feature map, F. Mathematically, we may represent this summation as:
+Mb = DFEM(σ(Bn(Conv(F))))
+Mm=σ(Bn(Conv(F)))
+Or equivalently, as:
+Fo = DFEM(σ(Bn(Conv(F)))) + σ(Bn(Conv(F)))
+Furthermore, σ, Bn, and Conv represent the σ Silu activation, batch normalization, and convolutional operations, respectively.
+This approach amalgamates the diverse and nuanced features learned by both the backbone network and the MCFF module, to produce a more holistic and comprehensive representation of our input feature map F.
